@@ -1,0 +1,13 @@
+@import url(../reveal.js/css/theme/white.css);
+
+.reveal section img {
+    margin: 15px 0px;
+    background: none!important;
+    border: none!important;
+    box-shadow:  none!important;
+}
+
+button.navigate-up,
+button.navigate-down {
+	display: none;
+}
