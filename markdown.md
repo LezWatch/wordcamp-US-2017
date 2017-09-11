@@ -187,5 +187,4 @@ Note: Over 15% of queer females die on TV. Sadly I can't get the stats to tell y
 
 [Video]
 
-
 Note: So my friend and I made a site where we try to make sense of the deaths of lesbians, forge statistics, and publish a narrative of television and how it represents us. Because we deserve better.
