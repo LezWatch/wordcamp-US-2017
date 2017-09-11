@@ -2,7 +2,7 @@
 
 Invest in Bulletproof Vests
 
-Note: On television, being a queer female is more deadly than being on the Titanic. Since 1971, when the first lesbian was killed on screen, they've been shot, stabbed, blown up, hit by cars, and poisoned in massive numbers. An incredibly small percentage get happy endings. In fact, in 2016, over 40 were killed when, on average, the number is usually closer to 5. 
+Note: On television, being a queer female is more deadly than being on the Titanic. Since 1971, when the first lesbian was killed on screen, they've been shot, stabbed, blown up, hit by cars, and poisoned in massive numbers. An incredibly small percentage get happy endings. In fact, in 2016, over 40 were killed when, on average, the number is usually closer to 5 a year. 
 
 
 
@@ -10,7 +10,7 @@ Note: On television, being a queer female is more deadly than being on the Titan
 
 WordCamp San Francisco 2013
 
-Note: In 2013, Tracy Levesque and I met at WordCamp SF. In 2014, she and I were at the same hotel for the Community Summit plus Camp, and somehow got to talking about TV in the back of a van. Shay, from Chicago Fire, had just died, and Tracy lamented that we should have some database that listed all the lesbians on TV, and the shows, with if the show was worth it, how good representation was, and of course... we should power it in WordPress.
+Note: In 2013, Tracy Levesque and I met at WordCamp SF. In 2014, she and I were at the same hotel for the Community Summit plus Camp, and somehow got to talking about TV in the back of a van. Shay, from Chicago Fire, had just died, and Tracy lamented that we should have some database that listed all the lesbians on TV, and the shows, with if the show was worth it, how good representation was, and of course ... we should power it in WordPress.
 
 
 
@@ -44,7 +44,7 @@ Note: Our first iteration of the site had shows and characters with basic info. 
 
 A Fresh Coat of Paint
 
-Note: The primary goal of the redo, which is much what the site looks like today, was mobile first. The code was broken out into template parts, with a lot of consideration to DRY code. Things were hookable, repeatable, echo-able, and so on. It also had to be portable, so when we moved to another new theme, we could swap it out as painlessly as possible. That meant moving code from the theme to MU Plugins and a special per-site plugin.
+Note: The primary goal of the redo, which is much what the site looks like today, was mobile first. The code was broken out into template parts, with a lot of consideration to DRY code. Things were hookable, repeatable, echo-able, and so on. It also had to be portable, so when we moved to another new theme, we could swap it out as painlessly as possible. That meant moving code from the theme to a plugin.
 
 
 
@@ -52,7 +52,7 @@ Note: The primary goal of the redo, which is much what the site looks like today
 
 Sara Lance Hates Me
 
-Note: Then something happened... We had filled in most of the shows we knew well, and I'd started to collect random ones from Wikipedia. And we found the horrible world of multiple actors with one character. Adding in two people in one text field was okay, but adding it as an array is better because it became searchable in a better way. But then Sara flippin' Lance decided two actors wasn't enough. No, she had to be on multiple shows, in multiple roles, AND die and be resurrected. We needed repeatable fields AND groups just because she makes me cry.
+Note: Then something happened ... We had filled in most of the shows we knew well, and I'd started to collect random ones from Wikipedia. And we found the horrible world of multiple actors with one character. Adding in two people in one text field was okay, but adding it as an array is better because it became searchable in a more robust way. But then Sara flippin' Lance decided two actors wasn't enough. No, she had to be on multiple shows, in multiple roles, AND die and be resurrected. We needed repeatable fields AND groups just because she makes me cry.
 
 
 
@@ -60,7 +60,7 @@ Note: Then something happened... We had filled in most of the shows we knew well
 
 March 3rd, 2016 - Lexa
 
-Note: A moment please for the death of Lexa on the 100. See... Lesbians had been dying all over, but never before had it happened while a show was simultaneously touting how in touch it was with the queer community, how much it cared, and how much it wanted us to be happy. Yeah, the 100 baited their fans and paid an unexpected price.
+Note: A moment please for the death of Lexa on the 100. See... Queer women on TV had been dying all over, but never before had it happened while a show was simultaneously touting how in touch it was with the queer community, how much it cared, and how much it wanted us to be happy. Yeah, the 100 baited their fans and paid an unexpected price.
 
 
 
@@ -76,7 +76,7 @@ Note: To put it simply, the fans lost their MINDS. It prompted Autostraddle to m
 
 (Image of the stats?)
 
-Note: Meanwhile, we'd discovered that with the volume of data we had, we needed to shape it into something meaningful. The raw stats had to be available somehow. I knew from experience that calculating percentages pie chars can be computationally expensive when you do it live, but I also knew I could make it pretty with bar charts and graphs if I used Chart.js and templates.
+Note: Meanwhile, we'd discovered that with the volume of data we had, we needed to shape it into something meaningful. The raw stats had to be available somehow. I knew from experience that calculating percentages pie charts can be computationally expensive when you do it live, but I also knew I could make it pretty with bar charts and graphs if I used Chart.js and templates.
 
 
 
@@ -84,7 +84,7 @@ Note: Meanwhile, we'd discovered that with the volume of data we had, we needed 
 
 Taxonomies vs Custom Post Meta
 
-Note: The challenge with making those stats was that we had to generate them in a way that was easy to process. Some of the data, like sexuality, gender identity, tropes, and cliches, were all in custom taxonomies. That meant to sort out that there were, say, ten characters marked as bisexual out of 100 total? Super easy. But we'd also stored date of death as a custom post meta, so getting a list of how many characters died in 2000 was a lot harder. Post Meta is harder to get at and process.
+Note: The challenge with making those stats was that we had to generate them in a way that was easy to process. Some of the data, like sexuality, gender identity, tropes, and cliches, were all in custom taxonomies. That meant to sort out that there were, say, ten characters marked as bisexual out of 100 total? Super easy. But we'd also stored date of death as a custom post meta, so getting a list of how many characters died in 2000 was a lot harder. Post Meta is harder to get at and process en masse.
 
 
 
@@ -92,7 +92,7 @@ Note: The challenge with making those stats was that we had to generate them in 
 
 Adding New Features
 
-Note: Very quickly we had to look into caching. Right now, we're using object caching only via Memcached Redux. This has the funny effect of making the site way faster live that it is on localhost. Once we got the caching in place, and wrote our loops and stats code in a DRY fashion, we were able to move on to the next step.
+Note: Very quickly we had to look into caching. Right now, we're using Varnish with an Nginx proxy and object caching via Memcached Redux. This has the funny effect of making the site way faster live that it is on localhost. Once we got the caching in place, and wrote our loops and stats code in a DRY fashion, we were able to move on to the next step.
 
 
 
@@ -116,7 +116,7 @@ Note: We have plans for the future. I've managed to export the stats into a JSON
 
 The database of queer women 
 
-Note: If you can't tell, it's more than JUST lesbians. Once we started adding in trans women, we hit a snag. Do we add queer men who were often mis-identified as lesbians? In the end, we decided queer 'female' meant anyone who at some point in their life identified as non-male, cisgender or otherwise. We added in more options for gender identity, as well as sexuality, and the site kept growing.
+Note: If you can't tell, it's more than JUST lesbians. Once we started adding in trans women, we hit a snag. Do we add queer men who were often mis-identified as lesbians? This happened in the L Word. In the end, we decided queer 'female' meant anyone who at some point in their life identified as non-male, cisgender or otherwise. We added in more options for gender identity, as well as sexuality, and the site kept growing.
 
 
 
@@ -124,7 +124,7 @@ Note: If you can't tell, it's more than JUST lesbians. Once we started adding in
 
 When Queer Isn't Real
 
-Note: But this caused another problem. And no, I'm not talking about those characters for whom queerness is 'just a phase' or 'a college experiment.' No. I mean Beverly Harris - Roseanne's mom on the same named TV show. Beverly was straight until a big queer reveal! Only we found out at the end she was straight all along and it was just a story written by Roseanne. The REAL queer was her sister Jackie! I was at a coffee shop when I remembered all that and I might have scared the barista. How do you record THAT!? 
+Note: But this caused another problem. And no, I'm not talking about those characters for whom queerness is 'just a phase' or 'a college experiment.' No. I mean Beverly Harris - Roseanne's mom on the same named TV show. Beverly was straight until a big queer reveal! Only we found out at the end she was straight all along and it was just a story written by Roseanne. The REAL queer was her sister Jackie! Oh and this year? 2017? They retconned the retcon. How do you record THAT!? 
 
 
 
@@ -148,7 +148,7 @@ Note: This is one we don't have an answer to quite yet but it's a question as to
 
 I Live, I Die, I Live Again
 
-Notes: Effectively, we're struggling with what happens when people who regenerate die? And the time-traveling Sara Lance... well she's just Schrodinger's bisexual. She's alive or dead at any one point in time, and spends her days traipsing through time sleeping with women. Which is amusing but so, so hard to codify.
+Note: Effectively, we're struggling with what happens when people who regenerate die? And the time-traveling Sara Lance... well she's just Schrodinger's bisexual. She's alive or dead at any one point in time, and spends her days traipsing through time sleeping with women. Which is amusing but so, so hard to codify.
 
 
 
@@ -172,7 +172,7 @@ Note: AUGH!
 
 What Does it All Mean?
 
-Note: Take a deep breath. Okay. First of all, there is an impact of seeing all of 'your' people dead on tv. It hurts. A generation of TV wathcing lesbians were scarred over and over again by seeing their characters, the ones who felt like them, die. Furthermore, MANY, but not all, tropes are harmful. Still, claiming things without data proof is hard, and people did not have access to this data previously. But now we do.
+Note: Take a deep breath. Okay. First of all, there is an impact of seeing all of 'your' people dead on tv. It hurts. A generation of TV watching lesbians were scarred over and over again by seeing their characters, the ones who felt like them, die. Furthermore, MANY, but not all, tropes are harmful. Still, claiming things without data proof is hard, and people did not have access to this data previously. But now we do.
 
 
 ## Bury Your Queers
@@ -188,3 +188,4 @@ Note: Over 15% of queer females die on TV. Sadly I can't get the stats to tell y
 [Video]
 
 
+Note: So my friend and I made a site where we try to make sense of the deaths of lesbians, forge statistics, and publish a narrative of television and how it represents us. Because we deserve better.
