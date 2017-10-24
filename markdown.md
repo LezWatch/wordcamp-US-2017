@@ -44,7 +44,7 @@ Note: Our first iteration of the site had shows and characters with basic info. 
 
 A Fresh Coat of Paint
 
-Note: The primary goal of the redo, which is much what the site looks like today, was mobile first. The code was broken out into template parts, with a lot of consideration to DRY code. Things were hookable, repeatable, echo-able, and so on. It also had to be portable, so when we moved to another new theme, we could swap it out as painlessly as possible. That meant moving code from the theme to a plugin.
+Note: The primary goal of the redo was mobile first and code updatability. The code was broken out into template parts, with a lot of consideration to DRY code. Things were hookable, repeatable, echo-able, and so on. It also had to be portable, so when we moved to another new theme, we could swap it out as painlessly as possible. That meant moving code from the theme to a plugin.
 
 
 
@@ -165,6 +165,14 @@ Note: Let's not forget the gender swapping aliens on the X-Files, or gay women w
 AAAAHHHHHHHHHHHHHHHHHH
 
 Note: AUGH!
+
+
+
+## Version Four
+
+New Theme, New Features
+
+Note: We didn't let all that stop us. All summer tracy and I slaved at a new theme that did things faster, better, and more UX attractively. We took into account speed, faceted search, accessibility, images, load time, memory, and everything in between to make the site better. In the middle of all that, the Wynonna Earp account tweeted about us, so I found out where we reaaaly needed to improve things.
 
 
 
