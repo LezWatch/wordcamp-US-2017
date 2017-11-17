@@ -32,7 +32,7 @@ Note: For every show, we realized we needed to do more than just collect the dat
 
 
 
-## In Which We Underestimate
+## We Underestimated
 
 ![Never understimate a woman - Dana Scully, The X-Files](underestimate-scully.gif)
 
@@ -56,7 +56,7 @@ Note: Then something happened ... We had filled in most of the shows we knew wel
 
 
 
-## March 3rd, 2016 - Lexa Dies
+## March 3, 2016 - Lexa
 
 ![Clark sobbing over Lexa's dead body from The 100. It's really sad](clark-sobbing.gif)
 
@@ -90,7 +90,7 @@ Note: The challenge with making those stats was that we had to generate them in 
 
 
 
-## The Shane Connundrum
+## The Shane Conundrum
 
 ![Shane from The L Word being Shane](shane.gif)
 
@@ -150,7 +150,7 @@ Note: But this caused another problem. And no, I'm not talking about those chara
 
 ![Ruby and Sapphire, who are both two people and one third person - from Steven Universe](ruby-saphire.gif)
 
-Note: Don't forget things like Jadzia Dax, who was queer, and Ezri Dax, who wasn't except in an alternate timeline. They both were different people with the same 'Dax' symbiote on DS9. It's a Star Trek thing. Don't worry if you don't watch it. The point is Jadzia died, and Dax lived, moving into Ezri. Ezri was straight. Mostly... Kind of. And that brought up another problem!
+Note: What about Ruby and Sapphire, who are two different people in love who became one? And Jadzia Dax, who was queer, but Ezri Dax wasn't except in an alternate timeline. They're all different people, and yet they're not. Do we count the Dax symbiote on it's own? Because Jadzia died, and Dax lived, moving into Ezri. Ezri was straight. Mostly... Kind of. And that brought up another problem!
 
 
 
